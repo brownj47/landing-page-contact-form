@@ -1,0 +1,15 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+header {
+    background-color: lightblue;
+    position: fixed;
+}
+
+header ul {
+    list-style: none;
+    display: inline;
+}

@@ -2,14 +2,52 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+p, h1, h2 {
+    text-align: center;
+}
 
 header {
     background-color: lightblue;
     position: fixed;
+    width: 100%;
 }
 
-header ul {
+header ul li {
     list-style: none;
     display: inline;
+
+}
+header ul {
+    position: relative;
+    left: 85%;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.emptyBox {
+    background-color: bisque;
+}
+
+main {
+    background-color: bisque;
+}
+
+main section {
+    margin: 0 auto;
+    width: 300px;
+    border: 5px solid rgb(81, 93, 56);
+    border-radius: 5px;
+
+}
+
+form {
+    text-align: center;
+}
+
+footer {
+    background-color: forestgreen;
 }

@@ -1,7 +1,7 @@
 
 
-## Acceptance Criteria
+## Landing Page/Contact form
 
-* It's done when the contact form includes a Send button.
+* This project involved creating a sample website page with working links, a fixed position header, and a contact form. 
 
 

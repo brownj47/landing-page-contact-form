@@ -1,53 +1,79 @@
-* {
-    font-family: 'Courier New', Courier, monospace;
+
+html, body {
+    background-color: aliceblue;
+    margin: 0px;
 }
 
-p, h1, h2 {
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, p, h2 {
     text-align: center;
 }
 
 header {
-    background-color: lightblue;
     position: fixed;
+    background-color: rgb(160, 186, 213);
+    border-bottom: 5px solid rgb(133, 133, 133);
     width: 100%;
+    text-align: right;
 }
 
 header ul li {
-    list-style: none;
-    display: inline;
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(87, 177, 250);
+    border-radius: 10px;
+    margin: 5px 20px ;
+    margin-top: 15px;
+    list-style-type: none;
+}
 
-}
-header ul {
-    position: relative;
-    left: 85%;
-}
 
 img {
-    margin-left: auto;
-    margin-right: auto;
     display: block;
+    margin: auto;
 }
 
+
+
 .emptyBox {
-    background-color: bisque;
+    background-color: aliceblue;
+    padding: 40px;
+    padding-top: 120px;
+}
+
+.emptyBox section {
+    width: 500px;
+    margin: auto;
 }
 
 main {
-    background-color: bisque;
+    background-color: rgb(160, 186, 213);
+    padding: 20px;
+    border-top: 5px solid rgb(133, 133, 133);
+    border-bottom: 5px solid rgb(133, 133, 133);
 }
 
 main section {
     margin: 0 auto;
     width: 300px;
-    border: 5px solid rgb(81, 93, 56);
+    border: 2px solid rgb(87, 177, 250);
+    padding: 4px;
     border-radius: 5px;
+    color:white;
 
 }
 
 form {
     text-align: center;
+    padding: 20px;
 }
 
 footer {
-    background-color: forestgreen;
-}
+    background-color: rgb(133, 133, 133);
+    padding: 10px;;
+} 

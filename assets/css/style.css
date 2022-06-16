@@ -1,3 +1,6 @@
+* { 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 html, body {
     background-color: aliceblue;
@@ -71,6 +74,12 @@ main section {
 form {
     text-align: center;
     padding: 20px;
+}
+
+.button {
+    background-color: aliceblue ;
+    border: none;
+    margin-top: 20px;
 }
 
 footer {
